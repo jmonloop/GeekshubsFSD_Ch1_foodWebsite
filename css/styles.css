@@ -5,8 +5,16 @@ body {
     width: 100vW;
     margin: 0;
     padding: 0;
-    background: url(../img/logo.jpg) no-repeat center fixed;
+
 }
+#navbar {
+
+}
+
+#emptyRow {
+    height: 5em;
+}
+
 .logo {
     height: 10em;
     width: 10em;
@@ -19,6 +27,8 @@ body {
 
 .accordion-button {
     text-align: center;
+    background-color: rgb(21,88,55) !important;
+    color: white !important;
 }
 
 .platosDelDia {
