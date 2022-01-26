@@ -1,0 +1,30 @@
+
+body {
+    background-color: rgb(147,235,202) !important;
+    height: 100vh;
+    width: 100vW;
+    margin: 0;
+    padding: 0;
+    background: url(../img/logo.jpg) no-repeat center fixed;
+}
+.logo {
+    height: 10em;
+    width: 10em;
+}
+
+.carru {
+    height: 25em;
+    width: 20em;;
+}
+
+.accordion-button {
+    text-align: center;
+}
+
+.platosDelDia {
+    background-color:rgb(21,88,55) ;
+}
+
+#carouselMenu {
+    background-color: rgb(68,157,124);
+}
