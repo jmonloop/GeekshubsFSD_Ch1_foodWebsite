@@ -7,9 +7,9 @@ body {
     padding: 0;
 
 }
-#navbar {
-
-}
+/* #navbar {
+    width: 100%;
+} */
 
 #emptyRow {
     height: 5em;
@@ -24,11 +24,23 @@ body {
     height: 25em;
     width: 20em;;
 }
+.logo {
+    height: 20em;
+    width: 20em;
+}
+.logoCont {
+    text-align: center;
+}
 
 .accordion-button {
     text-align: center;
     background-color: rgb(21,88,55) !important;
     color: white !important;
+}
+
+.buttonText {
+    text-align: center;
+    
 }
 
 .platosDelDia {
