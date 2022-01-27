@@ -18,13 +18,14 @@ body {
 #navbar {
     height: 6em;
     z-index: 1;
+    background-color: white !important;
+}
+#navbarSupportedContent {
+    background-color: white;
 }
 
 #rightNav{
     margin-right: 2em;
-}
-.dropMenu {
-    background-color: white !important;
 }
 /* .logoDiv {
     height: 8em;
