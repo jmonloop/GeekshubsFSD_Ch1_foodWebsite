@@ -14,7 +14,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
+    
 }
+
+body::-webkit-scrollbar {
+    display: none;
+  }
 #navbar {
     height: 6em;
     z-index: 1;
@@ -72,4 +77,15 @@ body {
 
 #carouselMenu1, #carouselMenu2 {
     background-color: rgb(68,157,124);
+}
+/* #emptyRowMenu {
+    height: 0em;
+} */
+#menuDiv {
+    z-index: -5;
+}
+
+#menuImg {
+    height: 20em;
+    width: 25em;
 }
