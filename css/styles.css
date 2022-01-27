@@ -7,26 +7,28 @@ body {
     padding: 0;
 
 }
-/* #navbar {
-    width: 100%;
+#navbar {
+    height: 6em;
+    z-index: 1;
+}
+/* .logoDiv {
+    height: 8em;
+
 } */
-
 #emptyRow {
-    height: 5em;
+    height: 8em;
 }
 
-.logo {
-    height: 10em;
-    width: 10em;
-}
 
 .carru {
     height: 25em;
     width: 20em;;
 }
 .logo {
-    height: 20em;
-    width: 20em;
+    height: 6em;
+    width: 8em;
+    position: absolute;
+    z-index: 2;
 }
 .logoCont {
     text-align: center;
