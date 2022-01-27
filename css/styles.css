@@ -5,11 +5,22 @@ body {
     width: 100vW;
     margin: 0;
     padding: 0;
+    background-image:url('/img/paellaverduras.jpg');
+    min-height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 #navbar {
     height: 6em;
     z-index: 1;
+}
+.dropMenu {
+    background-color: white !important;
 }
 /* .logoDiv {
     height: 8em;
@@ -19,7 +30,12 @@ body {
     height: 8em;
 }
 
-
+.bgImg {
+    width: 100%;
+}
+#accordions {
+    z-index: 0;
+}
 .carru {
     height: 25em;
     width: 20em;;

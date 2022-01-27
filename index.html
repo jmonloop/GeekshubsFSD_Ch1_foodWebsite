@@ -26,36 +26,34 @@
               <li class="nav-item">
                   <a class="nav-link active">Por encargo</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Danos tu opinión
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="suggestions.html">Sugerencia de platos</a></li>
-                    <li><a class="dropdown-item" href="rating.html">Comentarios al cocinero</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="contact.html">Contacto</a></li>
-                  </ul>
-                </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            <form class="d-flex navbar-nav">
+              <div class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle active " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Danos tu opinión
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="suggestions.html">Sugerencia de platos</a></li>
+                  <li><a class="dropdown-item" href="rating.html">Comentarios al cocinero</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="contact.html">Contacto</a></li>
+                </ul>
+              </div>
             </form>
           </div>
         </div>
     </nav>
-    <div class="row container-fluid justify-content-center">
+    <div class="row fixed-top container-fluid justify-content-center">
       <img class="logo" src="img/logo.jpg" alt="logo.jpg">
     </div>
     <div class="container-fluid" id="emptyRow"></div>
     <div class="row">
-      <div class="col container-fluid d-flex flex-col justify-content-center">
+      <div class="col container-fluid d-flex flex-col justify-content-center"  id="accordions">
         <div class="container-fluid d-flex flex-column justify-content-center">
           <div class="accordion w-100" id="accordionExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button d-flex flex-column" id="platosDelDia" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <button class="accordion-button d-flex flex-column " id="platosDelDia" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     <div class="buttonText">PLATOS DEL DÍA</div>
                   </button>
                 </h2>
