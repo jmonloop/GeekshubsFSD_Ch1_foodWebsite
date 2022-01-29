@@ -14,6 +14,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
+    font-weight: 600;
+
     
 }
 
@@ -98,3 +100,7 @@ body::-webkit-scrollbar {
 
 
 /* menu.html*/
+.day {
+    background-color: rgb(147,235,202) !important;
+    color: black !important;
+}
