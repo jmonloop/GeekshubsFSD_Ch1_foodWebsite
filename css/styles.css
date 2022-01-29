@@ -66,6 +66,9 @@ body::-webkit-scrollbar {
     color: white !important;
 }
 
+.accordion-body {
+    background-color: rgb(68,157,124);
+}
 .buttonText {
     text-align: center;
     
@@ -82,10 +85,11 @@ body::-webkit-scrollbar {
     height: 0em;
 } */
 #menuDiv {
-    z-index: -5;
+    /* z-index: -5; */
 }
 
 #menuImg {
     height: 20em;
     width: 25em;
+    border-style: solid ;
 }
