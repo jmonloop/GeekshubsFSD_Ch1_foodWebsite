@@ -1,3 +1,23 @@
+// Initialize and add the map
+function initMap() {
+    // The location of Uluru
+    const uluru = { lat: 39.291470972405804, lng: -0.4137752400217259 };
+    // The map, centered at Uluru
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 4,
+      center: uluru,
+    });
+    // The marker, positioned at Uluru
+    const marker = new google.maps.Marker({
+      position: uluru,
+      map: map,
+    });
+  }
+  39.291470972405804, -0.4137752400217259
+
+
+
+
 
 const bodyClick = document.querySelectorAll('.hideAll')
 
@@ -27,15 +47,3 @@ const bsCollapse5 = new bootstrap.Collapse(sabado)
 bodyClick.forEach((l) => {
     l.addEventListener('click', () => { bsCollapse5.hide() })
 })
-
-
-
-
-// const collapseHide = (master, elmnt) => {
-//     const masterClick = document.querySelectorAll(master)
-//     const slaveHidden = document.getElementById(elmnt)
-//     const bsCollapse = new bootstrap.Collapse(slaveHidden)
-//     masterClick.forEach((l) => {
-//         l.addEventListener('click', () => { bsCollapse.hide() })
-//     })
-// }

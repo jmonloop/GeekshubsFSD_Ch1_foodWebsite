@@ -104,3 +104,27 @@ body::-webkit-scrollbar {
     background-color: rgb(147,235,202) !important;
     color: black !important;
 }
+
+
+/*contact.html*/
+.contact {
+    background-color: rgb(76,147,108);
+    height: 25em;
+    width: 20em;
+    border-style: solid;
+}
+
+.adress{
+    background-color: red;
+    height: 20em;
+    width: 20em;
+}
+
+.map {
+    height: 20em;
+    width: 20em;
+}
+
+iframe {
+    margin-top: 5.5em
+}
