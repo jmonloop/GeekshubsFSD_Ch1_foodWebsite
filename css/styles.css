@@ -49,8 +49,13 @@ body::-webkit-scrollbar {
     z-index: 0;
 }
 .carru {
-    height: 25em;
-    width: 20em;;
+    max-height: 30%;
+    max-width: 30%;
+    border-style: solid;
+}
+.emptyDivCaptions {
+    height: 5em;
+    width: 100em;
 }
 .logo {
     height: 6em;
