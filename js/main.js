@@ -53,7 +53,6 @@ bodyClick.forEach((l) => {
 
 
 
-
 //HOVER ON TEXT SHOWS IMAGE
 const hoverImg = (name, img) => {
   var name = document.getElementById(name);
@@ -67,6 +66,9 @@ const hoverImg = (name, img) => {
   });
 }
 
+
+
+//TUESDAY HOVERS
 window.onload = hoverImg('arrozalhorno', 'arrozalhornoimg');
 window.onload = hoverImg('paellaalbon', 'paellaalbonimg');
 window.onload = hoverImg('fideuasenyoret', 'fideuasenyoretimg');
@@ -76,7 +78,7 @@ window.onload = hoverImg('halibut', 'halibutimg');
 window.onload = hoverImg('ensalada', 'ensaladaimg');
 
 
-
+//WEDNESDAY HOVERS
 window.onload = hoverImg('paellaval', 'paellavalimg');
 window.onload = hoverImg('fideuaclasica', 'fideuaclasicaimg');
 window.onload = hoverImg('espiralespesto', 'espiralespestoimg');
@@ -85,7 +87,7 @@ window.onload = hoverImg('crema', 'cremaimg');
 window.onload = hoverImg('bacalao', 'bacalaoimg');
 window.onload = hoverImg('ensaladapinya', 'ensaladapinyaimg');
 
-
+//THURSDAY HOVERS
 window.onload = hoverImg('paellapollo', 'paellapolloimg');
 window.onload = hoverImg('fideuaboletus', 'fideuaboletusimg');
 window.onload = hoverImg('lasagna', 'lasagnaimg');

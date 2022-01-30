@@ -48,9 +48,12 @@ body::-webkit-scrollbar {
 #accordions {
     z-index: 0;
 }
+.acc {
+    width: 30em;
+}
 .carru {
-    max-height: 30%;
-    max-width: 30%;
+    max-height: 80%;
+    max-width: 80%;
     border-style: solid;
 }
 
@@ -62,6 +65,10 @@ body::-webkit-scrollbar {
         max-height: 100%;
         max-width: 100%;
     }
+    .acc {
+        width: 20em;
+    }
+
 }
 
 
@@ -121,6 +128,7 @@ body::-webkit-scrollbar {
         max-width: 50%;
         position:absolute; 
         margin-left: 5em;
+        border-style: solid;
 }
 
 
