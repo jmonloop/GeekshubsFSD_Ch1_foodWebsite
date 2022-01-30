@@ -18,12 +18,14 @@ function initMap() {
 
 
 
-  const showModal= (elmnt, src) => {
+  const showModal= (elmnt, src, p) => {
     console.log(elmnt, src);
     let myModal = document.getElementById(elmnt);
     let modal = bootstrap.Modal.getOrCreateInstance(myModal)
     let img = document.getElementById('modalImg');
+    let text = document.getElementById('modalText')
     img.src=src;
+    text.textContent=p;
     modal.show()
 }
 

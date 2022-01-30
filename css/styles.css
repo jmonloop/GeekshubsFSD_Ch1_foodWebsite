@@ -172,3 +172,7 @@ iframe {
 #menuImg {
     border-style: solid;
 }
+
+.textModalFooter {
+    text-align: center;
+}
