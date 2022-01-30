@@ -83,10 +83,10 @@ body::-webkit-scrollbar {
 }
 .logo {
     height: 6em;
-    width: 8em;
+    width: 6em;
     position: absolute;
     z-index: 2;
-    margin-left: 1.5em;
+    /* margin-left: 1.5em; */
 }
 .logoCont {
     text-align: center;
