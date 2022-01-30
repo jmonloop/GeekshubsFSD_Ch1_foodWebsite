@@ -53,17 +53,15 @@ body::-webkit-scrollbar {
     max-width: 30%;
     border-style: solid;
 }
+
+.carCap {
+    margin-top: 10em;
+}
 @media screen and (max-width: 700px) {
     .carru{
         max-height: 100%;
         max-width: 100%;
     }
-    .emptyDivCaptions {
-        height: 0em;
-        width: 100em;
-    }
-
-    
 }
 
 
@@ -105,9 +103,7 @@ body::-webkit-scrollbar {
 /* #emptyRowMenu {
     height: 0em;
 } */
-#menuDiv {
-    /* z-index: -5; */
-}
+
 
 
 
@@ -118,6 +114,13 @@ body::-webkit-scrollbar {
 .day {
     background-color: rgb(147,235,202) !important;
     color: black !important;
+}
+
+.imgCardContent {
+        max-height: 50%;
+        max-width: 50%;
+        position:absolute; 
+        margin-left: 5em;
 }
 
 
