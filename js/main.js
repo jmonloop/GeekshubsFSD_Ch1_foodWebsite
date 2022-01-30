@@ -93,3 +93,29 @@ window.onload = hoverImg('traserospollo', 'traserospolloimg');
 window.onload = hoverImg('espiralesverdura', 'espiralesverduraimg');
 window.onload = hoverImg('rape', 'rapeimg');
 window.onload = hoverImg('ensalada2', 'ensalada2img');
+
+
+//FRIDAY HOVERS
+window.onload = hoverImg('arrozalhorno2', 'arrozalhorno2img');
+window.onload = hoverImg('paellalbon2', 'paellalbon2img');
+window.onload = hoverImg('fideuaverdu', 'fideuaverduimg');
+window.onload = hoverImg('espaguetis', 'espaguetisimg');
+window.onload = hoverImg('limanda', 'limandaimg');
+window.onload = hoverImg('lomo', 'lomoimg');
+window.onload = hoverImg('ensalada3', 'ensalada3img');
+
+
+
+//SATURDAY HOVERS
+window.onload = hoverImg('paellaval2', 'paellaval2img');
+window.onload = hoverImg('paellaverdu', 'paellaverduimg');
+window.onload = hoverImg('fideuachipi', 'fideuachipiimg');
+window.onload = hoverImg('arrozsenyo', 'arrozsenyoimg');
+window.onload = hoverImg('caracolas', 'caracolasimg');
+window.onload = hoverImg('lasagna2', 'lasagna2img');
+window.onload = hoverImg('crepesalmon', 'crepesalmonimg');
+window.onload = hoverImg('polloteri', 'polloteriimg');
+window.onload = hoverImg('confitpato', 'confitpatoimg');
+window.onload = hoverImg('bombascarne', 'bombascarneimg');
+window.onload = hoverImg('ensaladilla', 'ensaladillaimg');
+window.onload = hoverImg('ensalada4', 'ensalada4img');
