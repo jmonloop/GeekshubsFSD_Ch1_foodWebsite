@@ -165,3 +165,10 @@ iframe {
     height: 16.5em;
     width: 18em;
 }
+
+#modalImg {
+    border-style: solid;
+}
+#menuImg {
+    border-style: solid;
+}
