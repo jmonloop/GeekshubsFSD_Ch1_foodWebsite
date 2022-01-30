@@ -15,7 +15,7 @@ In addition to Bootstrap, CSS has been used to make several adjustments. Also Ja
 
 
 * You can try web version here
-https://jmonloop.github.io/GeekshubsFSD_Ch2_foodWebsite/
+https://wonderful-archimedes-d2ef27.netlify.app
 
 
 
