@@ -21,7 +21,7 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="menu.html" target="_blank">Menú semanal</a>
+                <a class="nav-link active" href="menu.html" target="_blank" >Menú semanal</a>
               </li>
             </ul>
               <div class="nav-item dropdown navbar-nav" id="rightNav">
@@ -29,8 +29,8 @@
                   Danos tu opinión
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item disabled" href="#">Sugerencia de platos</a></li>
-                  <li><a class="dropdown-item disabled" href="#">Comentarios al cocinero</a></li>
+                  <li><a class="dropdown-item" href="suggestions.html">Sugerencia de platos</a></li>
+                  <li><a class="dropdown-item" href="rating.html">Comentarios al cocinero</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="contact.html">Contacto</a></li>
                 </ul>
@@ -39,19 +39,17 @@
         </div>
     </nav>
     <div class="row fixed-top container-fluid justify-content-center">
-      <a class="logo" href="/index.html">
-        <img class="logo" src="img/logo.jpg" alt="logo.jpg">
-      </a>
+      <img class="logo" src="img/logo.jpg" alt="logo.jpg">
     </div>
     <div class="container-fluid" id="emptyRow"></div>
     <div class="row">
       <div class="col container-fluid d-flex flex-col justify-content-center"  id="accordions">
-        <div class="acc container-fluid d-flex flex-column justify-content-center">
+        <div class="container-fluid d-flex flex-column justify-content-center">
           <div class="accordion w-100" id="accordionExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
                   <button class="accordion-button d-flex flex-column " id="platosDelDia" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <div class="buttonText">HOY EN LA FRESCOR...</div>
+                    <div class="buttonText">PLATOS DEL DÍA</div>
                   </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -61,69 +59,31 @@
                             <button type="button" data-bs-target="#carouselMenu1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselMenu1" data-bs-slide-to="1" aria-label="Slide 2"></button>
                             <button type="button" data-bs-target="#carouselMenu1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            <button type="button" data-bs-target="#carouselMenu1" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                            <button type="button" data-bs-target="#carouselMenu1" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                            <button type="button" data-bs-target="#carouselMenu1" data-bs-slide-to="5" aria-label="Slide 6"></button>
                           </div>
                           <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="d-flex justify-content-center">
-                                    <img src="/img/espirales.jpg" class="img-fluid carru" alt="ensaladaLegumbres">
+                                    <img src="/img/espirales.jpg" class="carru" alt="ensaladaLegumbres">
                                 </div>
-                                <div class="emptyDivCaptions"></div>
-                              <div class="carousel-caption d-md-block">
-                                <h6>ESPIRALES CARBONARA</h6>
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5>ESPIRALES CARBONARA</h5>
                                 <!-- <p>Some representative placeholder content for the first slide.</p> -->
                               </div>
                             </div>
                             <div class="carousel-item">
                               <div class="d-flex justify-content-center">
-                                  <img src="/img/pollorustido.jpg" class="img-fluid carru" alt="polloRustido">
+                                  <img src="/img/pollorustido.jpg" class="carru" alt="polloRustido">
                               </div>
-                              <div class="emptyDivCaptions"></div>
-                              <div class="carousel-caption d-md-block">
-                                <h6>POLLO RUSTIDO</h6>
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5>POLLO RUSTIDO</h5>
                                 <!-- <p>Some representative placeholder content for the second slide.</p> -->
                               </div>
                             </div>
                             <div class="carousel-item">
-                              <div class="d-flex justify-content-center">
-                                  <img src="img/arrozalhorno.jfif" class="img-fluid carru" alt="capture">
-                              </div>
-                              <div class="emptyDivCaptions"></div>
-                              <div class="carousel-caption d-md-block">
-                                <h6>ARROZ AL HORNO</h6>
-                                <!-- <p>Some representative placeholder content for the second slide.</p> -->
-                              </div>
-                            </div>
-                            <div class="carousel-item">
-                              <div class="d-flex justify-content-center">
-                                  <img src="img/fideua.jpg" class="img-fluid carru" alt="capture">
-                              </div>
-                              <div class="emptyDivCaptions"></div>
-                              <div class="carousel-caption d-md-block">
-                                <h6>FIDEUÀ CLÁSICA MARINERA</h6>
-                                <!-- <p>Some representative placeholder content for the second slide.</p> -->
-                              </div>
-                            </div>
-                            <div class="carousel-item">
-                              <div class="d-flex justify-content-center">
-                                  <img src="img/rape.jpg" class="carru" alt="capture">
-                              </div>
-                              <div class="emptyDivCaptions"></div>
-                              <div class="carousel-caption d-md-block">
-                                <h6>RAPE ENCEBOLLADO</h6>
-                                <!-- <p>Some representative placeholder content for the second slide.</p> -->
-                              </div>
-                            </div>
-                            <div class="carousel-item">
-                              <div class="d-flex justify-content-center">
-                                  <img src="img/ensalada.jpg" class="img-fluid carru" alt="capture">
-                              </div>
-                              <div class="emptyDivCaptions"></div>
-                              <div class="carousel-caption  d-md-block">
-                                <h6>ENSALADA DE LA CASA</h6>
-                                <!-- <p>Some representative placeholder content for the second slide.</p> -->
+                              <img src="/img/paellamarisco.jpg" class="img-fluid" alt="paella marisco">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5>PAELLA DE MARISCO</h5>
+                                <!-- <p>Some representative placeholder content for the third slide.</p> -->
                               </div>
                             </div>
                           </div>
@@ -152,69 +112,31 @@
                         <button type="button" data-bs-target="#carouselMenu2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselMenu2" data-bs-slide-to="1" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselMenu2" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselMenu2" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselMenu2" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carouselMenu2" data-bs-slide-to="5" aria-label="Slide 6"></button>
                       </div>
                       <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="d-flex justify-content-center">
-                                <img src="/img/paella-valenciana-tradicional.jpg" class="img-fluid carru" alt="ensaladaLegumbres">
+                                <img src="/img/espirales.jpg" class="carru" alt="ensaladaLegumbres">
                             </div>
-                            <div class="emptyDivCaptions"></div>
-                          <div class="carousel-caption d-md-block">
-                            <h6>PAELLA VALENCIANA</h6>
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>ESPIRALES CARBONARA</h5>
                             <!-- <p>Some representative placeholder content for the first slide.</p> -->
                           </div>
                         </div>
                         <div class="carousel-item">
                           <div class="d-flex justify-content-center">
-                              <img src="/img/fideuaOk.png" class="img-fluid carru" alt="polloRustido">
+                              <img src="/img/pollorustido.jpg" class="carru" alt="polloRustido">
                           </div>
-                          <div class="emptyDivCaptions"></div>
-                          <div class="carousel-caption d-md-block">
-                            <h6>FIDEUÀ</h6>
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>POLLO RUSTIDO</h5>
                             <!-- <p>Some representative placeholder content for the second slide.</p> -->
                           </div>
                         </div>
                         <div class="carousel-item">
-                          <div class="d-flex justify-content-center">
-                              <img src="img/arrozsenyoret.JPG" class="img-fluid carru" alt="capture">
-                          </div>
-                          <div class="emptyDivCaptions"></div>
-                          <div class="carousel-caption d-md-block">
-                            <h6>ARROZ DEL SENYORET</h6>
-                            <!-- <p>Some representative placeholder content for the second slide.</p> -->
-                          </div>
-                        </div>
-                        <div class="carousel-item">
-                          <div class="d-flex justify-content-center">
-                              <img src="img/paellaverd.jpg" class="img-fluid carru" alt="capture">
-                          </div>
-                          <div class="emptyDivCaptions"></div>
-                          <div class="carousel-caption d-md-block">
-                            <h6>PAELLA DE VERDURAS</h6>
-                            <!-- <p>Some representative placeholder content for the second slide.</p> -->
-                          </div>
-                        </div>
-                        <div class="carousel-item">
-                          <div class="d-flex justify-content-center">
-                              <img src="img/fideuapato.jpg" class="carru" alt="capture">
-                          </div>
-                          <div class="emptyDivCaptions"></div>
-                          <div class="carousel-caption d-md-block">
-                            <h6>FIDEUÀ DE PATO FOIE Y BOLETUS</h6>
-                            <!-- <p>Some representative placeholder content for the second slide.</p> -->
-                          </div>
-                        </div>
-                        <div class="carousel-item">
-                          <div class="d-flex justify-content-center">
-                              <img src="img/arroznegro.jpg" class="img-fluid carru" alt="capture">
-                          </div>
-                          <div class="emptyDivCaptions"></div>
-                          <div class="carousel-caption d-md-block">
-                            <h6>ARROZ NEGRO</h6>
-                            <!-- <p>Some representative placeholder content for the second slide.</p> -->
+                          <img src="/img/paellamarisco.jpg" class="d-block m-auto h-50 w-50" alt="paella marisco">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>PAELLA DE MARISCO</h5>
+                            <!-- <p>Some representative placeholder content for the third slide.</p> -->
                           </div>
                         </div>
                       </div>
@@ -233,13 +155,13 @@
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingThree">
                   <button class="accordion-button collapsed d-flex flex-column" id="platosPorEncargo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <div class="buttonText">OFERTAS Y MENÚS</div>
+                    <div class="buttonText">OFERTAS</div>
                   </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                     <div class="d-flex flex-column justify-content-center" id="menuDiv">
-                      <img class="img-fluid mx-auto" id="menuImg" src="/img/packs.jpg" alt="">
+                      <img class="img-fluid mx-auto" id="menuImg" src="/img/menuFrescor.jfif" alt="">
                     </div>
                   </div>
                 </div>

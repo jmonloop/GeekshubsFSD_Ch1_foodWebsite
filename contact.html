@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container-fluid">
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light W-100" id="navbar">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="menu.html" target="_blank" >Menú semanal</a>
+              </li>
+            </ul>
+              <div class="nav-item dropdown navbar-nav" id="rightNav">
+                <a class="nav-link dropdown-toggle active " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Danos tu opinión
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item disabled" href="suggestions.html">Sugerencia de platos</a></li>
+                  <li><a class="dropdown-item disabled" href="rating.html">Comentarios al cocinero</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="contact.html">Contacto</a></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+    </nav>
+    <div class="row fixed-top container-fluid justify-content-center">
+      <a class="logo" href="/index.html">
+        <img class="logo" src="img/logo.jpg" alt="logo.jpg">
+      </a>
+    </div>
+    <div class="container-fluid" id="emptyRow"></div>
+    <div class="row">
+      <div class="col container-fluid d-flex flex-col justify-content-center">
+        <div class="contact flex-col justify-content-center">
+          <div class="adress">
+            <p>Carrer de Santa Ana, 17 <br> 
+              46440 Almussafes, Valencia <br>
+              +34 667 51 28 58 <br>
+              <a href="https://www.facebook.com/La-Frescor-de-Almussafes-1644481618930645" target="_blank"> Síguenos en Facebook</a>
+            </p>
+          </div>
+          <div class="map d-flex justify-content-center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3087.861357396615!2d-0.4158412853495046!3d39.2913946312298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd61b2e25f90113d%3A0x7519bf3517b661bc!2sLa%20Frescor%20d&#39;Almussafes!5e0!3m2!1ses-419!2ses!4v1643493298502!5m2!1ses-419!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col container-fluid d-flex flex-col justify-content-center">
+
+
+      </div>
+    </div>
+    <div class="container-fluid" id="emptyRowMenu"></div>
+
+  </div>
+
+    
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAewnl0xHdhkkTp902ts2nkKYzsCr9xXBw&callback=initMap&libraries=&v=weekly"
+    async
+  ></script>  
+</body>
+</html>

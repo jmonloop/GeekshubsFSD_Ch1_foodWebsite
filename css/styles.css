@@ -5,26 +5,164 @@ body {
     width: 100vW;
     margin: 0;
     padding: 0;
-    background: url(../img/logo.jpg) no-repeat center fixed;
-}
-.logo {
-    height: 10em;
-    width: 10em;
+    background-image:url('/img/paellaverduras.jpg');
+    min-height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-weight: 600;
+
+    
 }
 
+body::-webkit-scrollbar {
+    display: none;
+  }
+#navbar {
+    height: 6em;
+    z-index: 1;
+    background-color: white !important;
+}
+#navbarSupportedContent {
+    background-color: white;
+}
+
+#rightNav{
+    margin-right: 2em;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+  }
+/* .logoDiv {
+    height: 8em;
+
+} */
+#emptyRow {
+    height: 8em;
+}
+
+.bgImg {
+    width: 100%;
+}
+#accordions {
+    z-index: 0;
+}
+.acc {
+    width: 30em;
+}
 .carru {
-    height: 25em;
-    width: 20em;;
+    max-height: 80%;
+    max-width: 80%;
+    border-style: solid;
+}
+
+.carCap {
+    margin-top: 10em;
+}
+@media screen and (max-width: 700px) {
+    .carru{
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .acc {
+        width: 20em;
+    }
+
+}
+
+
+.emptyDivCaptions {
+    height: 5em;
+    width: 100em;
+}
+.logo {
+    height: 6em;
+    width: 6em;
+    position: absolute;
+    z-index: 2;
+    /* margin-left: 1.5em; */
+}
+.logoCont {
+    text-align: center;
 }
 
 .accordion-button {
     text-align: center;
+    background-color: rgb(21,88,55) !important;
+    color: white !important;
+}
+
+.accordion-body {
+    background-color: rgb(68,157,124);
+}
+.buttonText {
+    text-align: center;
+    
 }
 
 .platosDelDia {
     background-color:rgb(21,88,55) ;
 }
 
-#carouselMenu {
+#carouselMenu1, #carouselMenu2 {
     background-color: rgb(68,157,124);
+}
+/* #emptyRowMenu {
+    height: 0em;
+} */
+
+
+
+
+
+
+
+/* menu.html*/
+.day {
+    background-color: rgb(147,235,202) !important;
+    color: black !important;
+}
+
+.imgCardContent {
+        max-height: 50%;
+        max-width: 50%;
+        position:absolute; 
+        margin-left: 5em;
+        border-style: solid;
+}
+
+
+/*contact.html*/
+.contact {
+    background-color: rgb(76,147,108);
+    height: 25em;
+    width: 20em;
+    border-style: solid;
+}
+
+.adress{
+
+    height: 8em;
+    width: 20em;
+    margin-top: 1em;
+
+    text-align: center;
+}
+
+.map {
+    margin-top: -1em;
+    margin-left: -0.1em;
+    height: 20em;
+    width: 20em;
+}
+
+iframe {
+    height: 16.5em;
+    width: 18em;
 }

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body class="hideAll">
+<!-- <body data-bs-toggle="collapse" data-bs-target="#martes, #miercoles, #jueves, #viernes, #sabado"> -->
+  <div class="container-fluid">
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light W-100" id="navbar">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="menu.html" target="_blank" >Menú semanal</a>
+              </li>
+            </ul>
+              <div class="nav-item dropdown navbar-nav" id="rightNav">
+                <a class="nav-link dropdown-toggle active " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Danos tu opinión
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item disabled" href="suggestions.html">Sugerencia de platos</a></li>
+                  <li><a class="dropdown-item disabled" href="rating.html">Comentarios al cocinero</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="contact.html">Contacto</a></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+    </nav>
+    <div class="row fixed-top container-fluid justify-content-center">
+      <a class="logo" href="/index.html">
+        <img class="logo" src="img/logo.jpg" alt="logo.jpg">
+      </a>
+    </div>
+    <div class="container-fluid" id="emptyRow"></div>
+    <div class="row ">
+      <p>
+          <div class="d-flex justify-content-center">
+            <button class="btn btn-primary m-1 day" type="button" data-bs-toggle="collapse" data-bs-target="#martes" aria-expanded="false" aria-controls="martes">
+              Martes
+            </button>
+            <button class="btn btn-primary m-1 day" type="button" data-bs-toggle="collapse" data-bs-target="#miercoles" aria-expanded="false" aria-controls="miercoles">
+              Miércoles
+            </button>
+            <button class="btn btn-primary m-1 day" type="button" data-bs-toggle="collapse" data-bs-target="#jueves" aria-expanded="false" aria-controls="jueves">
+              Jueves
+            </button>
+            <button class="btn btn-primary m-1 day" type="button" data-bs-toggle="collapse" data-bs-target="#viernes" aria-expanded="false" aria-controls="viernes">
+              Viernes
+            </button>
+          </div>
+          <div class="d-flex justify-content-center">   
+            <button class="btn btn-primary day" type="button" data-bs-toggle="collapse" data-bs-target="#sabado" aria-expanded="false" aria-controls="sabado">
+              Sábado
+            </button>
+          </div>
+      </p>
+      <div class="collapse" id="martes">
+        <div class="card card-body ">
+          <div class="cardContent d-flex">
+            <div class="textCardContent">
+              <h5>Los Martes en la Frescor...</h5>
+            <p><span id="arrozalhorno">Arroz al horno</span> <br>
+              <span id="paellaalbon">Paella de pollo, conejo y albóndigas</span><br>
+              <span id="fideuasenyoret">Fideuà "Del Senyoret"</span><br>
+              <span id="macarronescarbonara">Macarrones carbonara</span><br>
+              <span id="alitas">Alitas asadas con salsa barbacoa</span><br>
+              <span id="halibut">Lomo de halibut con verduras y picadillo</span><br>
+              <span id="ensalada">Ensalada de la casa</span>
+            </p>
+            </div>
+            <div>
+              <img id="arrozalhornoimg" class="imgCardContent"  src="/img/arrozalhorno.jpg" alt="capture" style="display: none;">
+              <img id="paellaalbonimg" class="imgCardContent"  src="/img/paellaalbon.jpg" alt="capture" style="display: none;">
+              <img id="fideuasenyoretimg" class="imgCardContent"  src="/img/fideuasenyoret.jpg" alt="capture" style="display: none;">
+              <img id="macarronescarbonaraimg" class="imgCardContent"  src="/img/macarronescarbo.jfif" alt="capture" style="display: none;">
+              <img id="alitasimg" class="imgCardContent"  src="/img/alitas.jfif" alt="capture" style="display: none;">
+              <img id="halibutimg" class="imgCardContent"  src="/img/halibut.jpg" alt="capture" style="display: none;">
+              <img id="ensaladaimg" class="imgCardContent"  src="/img/ensalada.jpg" alt="capture" style="display: none;">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="collapse" id="miercoles">
+        <div class="card card-body ">
+          <div class="cardContent d-flex">
+            <div class="textCardContent">
+              <h5>Los Miércoles en la Frescor...</h5>
+            <p><span id="paellaval">Paella Valenciana</span> <br>
+              <span id="fideuaclasica">Fideuà clásica marinera</span><br>
+              <span id="espiralespesto">Espirales vegetales con verduras y crema de queso al pesto"</span><br>
+              <span id="guisopollo">Guiso de pollo con alcachofas</span><br>
+              <span id="crema">Crema de marisco</span><br>
+              <span id="bacalao">Bacalao al horno con tomate al ajillo</span><br>
+              <span id="ensaladapinya">Ensalada de piña, surimi y salsa rosa</span>
+            </p>
+            </div>
+            <div>
+              <img id="paellavalimg" class="imgCardContent"  src="/img/paella-valenciana-tradicional.jpg" alt="capture" style="display: none;">
+              <img id="fideuaclasicaimg" class="imgCardContent"  src="/img/fideua.jpg" alt="capture" style="display: none;">
+              <img id="espiralespestoimg" class="imgCardContent"  src="/img/espiralespesto.jfif" alt="capture" style="display: none;">
+              <img id="guisopolloimg" class="imgCardContent"  src="/img/guisopollo.jfif" alt="capture" style="display: none;">
+              <img id="cremaimg" class="imgCardContent"  src="/img/crema.jfif" alt="capture" style="display: none;">
+              <img id="bacalaoimg" class="imgCardContent"  src="/img/bacalao.jfif" alt="capture" style="display: none;">
+              <img id="ensaladapinyaimg" class="imgCardContent"  src="/img/ensapinya.jfif" alt="capture" style="display: none;">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="collapse" id="jueves">
+        <div class="card card-body ">
+          <div class="cardContent d-flex">
+            <div class="textCardContent">
+              <h5>Los Jueves en la Frescor...</h5>
+            <p><span id="paellapollo">Paella de pollo y conejo</span> <br>
+              <span id="fideuaboletus">Fideuà marinera con boletus</span><br>
+              <span id="lasagna">Lasaña de carne"</span><br>
+              <span id="traserospollo">Traseros de pollo rustidos</span><br>
+              <span id="espiralesverdura">Espirales con verduras</span><br>
+              <span id="rape">Rape encebollado con soja y espinacas frescas</span><br>
+              <span id="ensalada2">Ensalada de la casa</span>
+            </p>
+            </div>
+            <div>
+              <img id="paellapolloimg" class="imgCardContent"  src="/img/paella-valenciana-tradicional.jpg" alt="capture" style="display: none;">
+              <img id="fideuaboletusimg" class="imgCardContent"  src="/img/fideuaboletus.jfif" alt="capture" style="display: none;">
+              <img id="lasagnaimg" class="imgCardContent"  src="/img/lasagna.jpg" alt="capture" style="display: none;">
+              <img id="traserospolloimg" class="imgCardContent"  src="/img/traserospollo.jfif" alt="capture" style="display: none;">
+              <img id="espiralesverduraimg" class="imgCardContent"  src="/img/espiverdura.jfif" alt="capture" style="display: none;">
+              <img id="rapeimg" class="imgCardContent"  src="/img/rape.jpg" alt="capture" style="display: none;">
+              <img id="ensalada2img" class="imgCardContent"  src="/img/ensalada.jpg" alt="capture" style="display: none;">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="collapse" id="viernes">
+        <div class="card card-body ">
+          <div class="cardContent d-flex">
+            <div class="textCardContent">
+              <h5>Los Viernes en la Frescor...</h5>
+            <p><span id="arrozalhorno2">Arroz al horno</span> <br>
+              <span id="paellalbon2">Paella de pollo, conejo y albóndigas</span><br>
+              <span id="fideuaverdu">Fideuà marinera con verduras"</span><br>
+              <span id="espaguetis">Espaguetis con bacon, york y salsa de champiñones</span><br>
+              <span id="limanda">Filete de limanda gratinado con queso y cebollino</span><br>
+              <span id="lomo">Cinta de lomo con salsa argentina</span><br>
+              <span id="ensalada3">Ensalada de la casa</span>
+            </p>
+            </div>
+            <div>
+              <img id="arrozalhorno2img" class="imgCardContent"  src="/img/arrozalhorno.jpg" alt="capture" style="display: none;">
+              <img id="paellalbon2img" class="imgCardContent"  src="/img/paellaalbon.jpg" alt="capture" style="display: none;">
+              <img id="fideuaverduimg" class="imgCardContent"  src="/img/fideuaverdu.jfif" alt="capture" style="display: none;">
+              <img id="espaguetisimg" class="imgCardContent"  src="/img/espaguetis.jfif" alt="capture" style="display: none;">
+              <img id="limandaimg" class="imgCardContent"  src="/img/limanda.jfif" alt="capture" style="display: none;">
+              <img id="lomoimg" class="imgCardContent"  src="/img/lomo.jfif" alt="capture" style="display: none;">
+              <img id="ensalada3img" class="imgCardContent"  src="/img/ensalada.jpg" alt="capture" style="display: none;">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="collapse" id="sabado">
+        <div class="card card-body ">
+          <div class="cardContent d-flex">
+            <div class="textCardContent">
+              <h5>Los Sábados en la Frescor...</h5>
+            <p><span id="paellaval2">Paella Valenciana</span> <br>
+              <span id="paellaverdu">Paella de verduras con escarola fresca</span><br>
+              <span id="fideuachipi">Fideuà de chipirones y alcachofas"</span><br>
+              <span id="arrozsenyo">Arroz "Del Senyoret"</span><br>
+              <span id="caracolas">Caracolas a los cuatro quesos</span><br>
+              <span id="lasagna2">Lasaña de carne</span><br>
+              <span id="crepesalmon">Crepe de salmón</span><br>
+              <span id="polloteri">Traseros de pollo con salsa teriyaki</span><br>
+              <span id="confitpato">Confit de pato con confitura de fresas</span><br>
+              <span id="bombascarne">Bombas de carne</span><br>
+              <span id="ensaladilla">Ensaladilla rusa</span><br>
+              <span id="ensalada4">Ensalada de la casa</span>
+
+            </p>
+            </div>
+            <div>
+              <img id="paellaval2img" class="imgCardContent"  src="/img/paella-valenciana-tradicional.jpg" alt="capture" style="display: none;">
+              <img id="paellaverduimg" class="imgCardContent"  src="/img/paellaverduras.jpg" alt="capture" style="display: none;">
+              <img id="fideuachipiimg" class="imgCardContent"  src="/img/fideuachipi.jfif" alt="capture" style="display: none;">
+              <img id="arrozsenyoimg" class="imgCardContent"  src="/img/arrozsenyoret.JPG" alt="capture" style="display: none;">
+              <img id="caracolasimg" class="imgCardContent"  src="/img/caracolas.jfif" alt="capture" style="display: none;">
+              <img id="lasagna2img" class="imgCardContent"  src="/img/lasagna.jpg" alt="capture" style="display: none;">
+              <img id="crepesalmonimg" class="imgCardContent"  src="/img/crepesalmon.jfif" alt="capture" style="display: none;">
+              <img id="polloteriimg" class="imgCardContent"  src="/img/poyoteri.jfif" alt="capture" style="display: none;">
+              <img id="confitpatoimg" class="imgCardContent"  src="/img/confitpato.jfif" alt="capture" style="display: none;">
+              <img id="bombascarneimg" class="imgCardContent"  src="/img/bombascarne.jfif" alt="capture" style="display: none;">
+              <img id="ensaladillaimg" class="imgCardContent"  src="/img/esaladilla.jfif" alt="capture" style="display: none;">              
+              <img id="ensalada4img" class="imgCardContent"  src="/img/ensalada.jpg" alt="capture" style="display: none;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="emptyRowMenu"></div>
+
+  </div>
+
+    
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
