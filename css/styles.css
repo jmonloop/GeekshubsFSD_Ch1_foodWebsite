@@ -81,6 +81,7 @@ body::-webkit-scrollbar {
     width: 8em;
     position: absolute;
     z-index: 2;
+    margin-left: 1.5em;
 }
 .logoCont {
     text-align: center;
