@@ -67,4 +67,29 @@ const hoverImg = (name, img) => {
   });
 }
 
-window.onload = hoverImg('arrozalhorno', 'arrozalhornoimg')
+window.onload = hoverImg('arrozalhorno', 'arrozalhornoimg');
+window.onload = hoverImg('paellaalbon', 'paellaalbonimg');
+window.onload = hoverImg('fideuasenyoret', 'fideuasenyoretimg');
+window.onload = hoverImg('macarronescarbonara', 'macarronescarbonaraimg');
+window.onload = hoverImg('alitas', 'alitasimg');
+window.onload = hoverImg('halibut', 'halibutimg');
+window.onload = hoverImg('ensalada', 'ensaladaimg');
+
+
+
+window.onload = hoverImg('paellaval', 'paellavalimg');
+window.onload = hoverImg('fideuaclasica', 'fideuaclasicaimg');
+window.onload = hoverImg('espiralespesto', 'espiralespestoimg');
+window.onload = hoverImg('guisopollo', 'guisopolloimg');
+window.onload = hoverImg('crema', 'cremaimg');
+window.onload = hoverImg('bacalao', 'bacalaoimg');
+window.onload = hoverImg('ensaladapinya', 'ensaladapinyaimg');
+
+
+window.onload = hoverImg('paellapollo', 'paellapolloimg');
+window.onload = hoverImg('fideuaboletus', 'fideuaboletusimg');
+window.onload = hoverImg('lasagna', 'lasagnaimg');
+window.onload = hoverImg('traserospollo', 'traserospolloimg');
+window.onload = hoverImg('espiralesverdura', 'espiralesverduraimg');
+window.onload = hoverImg('rape', 'rapeimg');
+window.onload = hoverImg('ensalada2', 'ensalada2img');
