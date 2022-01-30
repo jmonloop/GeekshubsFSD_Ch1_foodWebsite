@@ -28,6 +28,13 @@ https://jmonloop.github.io/GeekshubsFSD_Ch2_foodWebsite/
 
 
 
+* Zoomable elements with footer description by using modal popovers
+
+![ScreenShot](https://raw.githubusercontent.com/jmonloop/GeekshubsFSD_Ch2_foodWebsite/master/assets/modal.JPG)
+
+
+
+
 * Hover images in weekly menus.
 
 ![ScreenShot](https://raw.githubusercontent.com/jmonloop/GeekshubsFSD_Ch2_foodWebsite/master/assets/menuHover.JPG)

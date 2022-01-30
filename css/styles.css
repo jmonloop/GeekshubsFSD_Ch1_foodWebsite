@@ -13,8 +13,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
-    font-weight: 600;
-
+    /* font-weight: 600; */
+    font-family: 'Watterbite Personal Use', sans-serif;
+                                                
     
 }
 
@@ -142,7 +143,7 @@ body::-webkit-scrollbar {
     background-color: rgb(76,147,108);
     height: 25em;
     width: 20em;
-    border-style: solid;
+    border-style: solid;font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .adress{
