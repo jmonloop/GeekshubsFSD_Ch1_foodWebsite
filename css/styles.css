@@ -53,6 +53,20 @@ body::-webkit-scrollbar {
     max-width: 30%;
     border-style: solid;
 }
+@media screen and (max-width: 700px) {
+    .carru{
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .emptyDivCaptions {
+        height: 0em;
+        width: 100em;
+    }
+
+    
+}
+
+
 .emptyDivCaptions {
     height: 5em;
     width: 100em;
@@ -95,11 +109,7 @@ body::-webkit-scrollbar {
     /* z-index: -5; */
 }
 
-#menuImg {
-    height: 20em;
-    width: 25em;
-    border-style: solid ;
-}
+
 
 
 

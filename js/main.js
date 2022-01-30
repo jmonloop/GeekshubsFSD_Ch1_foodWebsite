@@ -47,3 +47,24 @@ const bsCollapse5 = new bootstrap.Collapse(sabado)
 bodyClick.forEach((l) => {
     l.addEventListener('click', () => { bsCollapse5.hide() })
 })
+
+
+
+
+
+
+
+//HOVER ON TEXT SHOWS IMAGE
+const hoverImg = (name, img) => {
+  var name = document.getElementById(name);
+  var image = document.getElementById(img);
+  name.addEventListener("mouseenter", function( event ) {   
+    image.style.display = "block";
+  });
+
+  name.addEventListener("mouseleave", function( event ) {   
+    image.style.display = "none";
+  });
+}
+
+window.onload = hoverImg('arrozalhorno', 'arrozalhornoimg')
