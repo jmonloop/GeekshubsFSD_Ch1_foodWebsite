@@ -4,8 +4,7 @@ body {
     height: 100vh;
     width: 100vW;
     margin: 0;
-    padding: 0;
-    background-image:url('./img/paellaverduras.jpg');
+    background-image:url('https://raw.githubusercontent.com/jmonloop/GeekshubsFSD_Ch2_foodWebsite/master/img/paellaverduras.jpg');
     min-height: 100%;
 
     /* Create the parallax scrolling effect */
