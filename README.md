@@ -8,7 +8,7 @@ A take-away food real business was chose so that functionalities can be added in
 In addition to Bootstrap, CSS has been used to make several adjustments. Also Javascript for change some Bootstrap animations.
 
 
-![ScreenShot](https://raw.githubusercontent.com/jmonloop/GeekshubsFSD_Ch2_foodWebsite/master/assets/homeHide.jpg)
+![ScreenShot](https://raw.githubusercontent.com/jmonloop/GeekshubsFSD_Ch2_foodWebsite/master/assets/homeHide.JPG)
 
 
 
@@ -24,25 +24,25 @@ https://jmonloop.github.io/GeekshubsFSD_Ch2_foodWebsite/
 ## Features 📋
 * Collapsable elements with carousel of daily meals.
 
-![ScreenShot](https://raw.githubusercontent.com/jmonloop/GeekshubsFSD_Ch2_foodWebsite/master/assets/homeShown.jpg)
+![ScreenShot](https://raw.githubusercontent.com/jmonloop/GeekshubsFSD_Ch2_foodWebsite/master/assets/homeShown.JPG)
 
 
 
 * Hover images in weekly menus.
 
-![ScreenShot](https://raw.githubusercontent.com/jmonloop/GeekshubsFSD_Ch2_foodWebsite/master/assets/menuHover.jpg)
+![ScreenShot](https://raw.githubusercontent.com/jmonloop/GeekshubsFSD_Ch2_foodWebsite/master/assets/menuHover.JPG)
 
 
 
 * Google Maps embedded in contact section.
 
-![ScreenShot](https://raw.githubusercontent.com/jmonloop/GeekshubsFSD_Ch2_foodWebsite/master/assets/contact.jpg)
+![ScreenShot](https://raw.githubusercontent.com/jmonloop/GeekshubsFSD_Ch2_foodWebsite/master/assets/contact.JPG)
 
 
 
 * Totally responsive with mobile devices.
 
-![ScreenShot](https://raw.githubusercontent.com/jmonloop/GeekshubsFSD_Ch2_foodWebsite/master/assets/responsive.jpg)
+![ScreenShot](https://raw.githubusercontent.com/jmonloop/GeekshubsFSD_Ch2_foodWebsite/master/assets/responsive.JPG)
 
 
 
