@@ -1,4 +1,4 @@
-# FSD Food-based Static Website Proyect
+# FSD Food-based Static Website Project
 This is my second proyect in GeeksHubs Academy FSD bootcamp.
 The requirements are to program a food-based static website using HTML5 and Bootstrap templates. 
 The site must be responsive so it can be used with mobile devices.
